@@ -45,7 +45,7 @@ home = ["HTML", "RSS", "Algolia"]
 
 
 
-  friends = true
+
   bookmarks = false
   about_me = true
 
