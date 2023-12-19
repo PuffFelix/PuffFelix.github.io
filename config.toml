@@ -49,7 +49,6 @@ home = ["HTML", "RSS", "Algolia"]
 
 
 
-
   friends = true
   bookmarks = false
   about_me = true
@@ -62,28 +61,9 @@ home = ["HTML", "RSS", "Algolia"]
   
 
 
-  [[params.bookmark_link]]
-  title =  "Martin Fowler"
-  href =  "https://PuffFelix.github.io"
-  [[params.bookmark_link]]
-  title = "ServiceMesher"
-  href =  "http://PuffFelix.github.io"
-  [[params.bookmark_link]]
-  title =  "Pxhere"
-  href = "https://PuffFelix.github.io"
-  [[params.bookmark_link]]
-  title = "unsplash"
-  href = "https://PuffFelix.github.io"
+
   
-  #[[params.addtional_menus]]
- # title =  "ARCHIVE"
- # href =  "/archive/"
- # [[params.addtional_menus]]
-  #title =  "NOTES"
-  #href =  "/notes/"
- # [[params.addtional_menus]]
-  #title =  "关于"
- # href =  "/about/"
+
 
 [outputFormats.Algolia]
 baseName = "algolia"
@@ -101,3 +81,12 @@ params = ["categories", "tags"]
     startLevel = 1
   [markup.highlight]
     style = "dracula"
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+  [markup.goldmark.renderer]
+  unsafe = true
+
+
+
+
+
