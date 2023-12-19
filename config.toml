@@ -35,7 +35,7 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
 
-  featured_tags = true 
+  featured_tags = false 
   featured_condition_size = 1 
 
   # Baidu Analytics
