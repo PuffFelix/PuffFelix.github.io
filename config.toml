@@ -1,6 +1,6 @@
 baseurl = "https://PuffFelix.github.io"
 title = "工业遗址：“新生”"
-theme = "hugo-theme-cleanwhite"
+theme = "gohugo-theme-ananke"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
